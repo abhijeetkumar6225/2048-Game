@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 id="gamehead">2048 Game</h2>
+        <div class="innergame">
+            <div id="game-container">
+                <div id="game-grid"></div>
+                <div id="overlay">
+                    <div id="overlay-text">Game Over!</div>
+                    <button id="retry-button">Try Again</button>
+                </div>
+            </div>
+            <div class="instructions">
+                <p>Use the arrow keys to move the tiles.</p>
+                <p> When two tiles with the same number touch, they merge into one!</p>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
